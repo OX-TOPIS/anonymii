@@ -6,9 +6,8 @@ const Channel = () => {
   return (
     <div className='content flex overscroll-none h-screen'>
       <div className="w-1/4">
-        <h1 className="headtext ">All Messages</h1>
+        <h1 className="headtext">All Messages</h1>
         <div className="height overflow-y-scroll">
-        <Message/>
         <Message/>
         <Message/>
         <Message/>

@@ -1,9 +1,11 @@
 import React from 'react'
+import Card from '../components/Card'
 
 const MyChannel = () => {
   return (
     <div className='content'>
-      MyChannel
+      <div className="headtext">My Channel</div>
+      <Card/>
     </div>
   )
 }
